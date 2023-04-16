@@ -17,7 +17,7 @@ Make sure to put all stylesheets and images in assets directory. You don't have 
 4. Handle GET request on `/contact` path which should render a HTML form with following inputs:-
 
 - Name
-- Email
+- Email 
 - Username(unique)
 - Age
 - Bio
@@ -37,7 +37,7 @@ Follow below steps to save data:-
 Use fs module for above operations. Make sure to save users who have unique usernames, ensure unique username by using appropriate flags with fs.open()
 
 6. handle GET request on `/users?username=ANY_USERNAME_FROM_CONTACTS` which should
-
+  
 - fetch that specific user information based on username from contacts
 - return HTML response with all user data
 
